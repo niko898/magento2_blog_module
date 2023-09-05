@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MykolaAkimov_SimpleBlog::content_elements" 
+            title="Simple Blog" 
+            translate="title" 
+            module="MykolaAkimov_SimpleBlog" 
+            sortOrder="10" 
+            parent="Magento_Backend::content" 
+            resource="Magento_Backend::admin"/>
+        <add id="MykolaAkimov_SimpleBlog::post" 
+            title="Posts" 
+            translate="title" 
+            module="MykolaAkimov_SimpleBlog" 
+            sortOrder="0" 
+            parent="MykolaAkimov_SimpleBlog::content_elements" 
+            action="mykolaakimov_simpleblog/post" 
+            resource="Magento_Backend::admin"/>
+    </menu>
+</config>
