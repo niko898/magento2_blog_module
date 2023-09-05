@@ -9,10 +9,10 @@
     </argument>
     <!-- form settings -->
     <settings>
-        <!-- <buttons>
+        <buttons>
             <button name="save" class="MykolaAkimov\SimpleBlog\Block\Adminhtml\Post\Edit\SaveButton" />
             <button name="back" class="MykolaAkimov\SimpleBlog\Block\Adminhtml\Post\Edit\BackButton" />
-        </buttons> -->
+        </buttons>
         <namespace>mykolaakimov_simpleblog_post_form</namespace>
         <dataScope>data</dataScope>
         <deps>
