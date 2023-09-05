@@ -173,7 +173,7 @@
                 <visible>false</visible>
             </settings>
         </column>
-        <actionsColumn name="actions" class="Magento\Cms\Ui\Component\Listing\Column\PageActions">
+        <actionsColumn name="actions" class="MykolaAkimov\SimpleBlog\Ui\Component\Listing\Column\PostActions">
             <settings>
                 <indexField>post_id</indexField>
                 <resizeEnabled>false</resizeEnabled>
